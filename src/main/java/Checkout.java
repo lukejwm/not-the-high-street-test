@@ -1,6 +1,11 @@
 public class Checkout implements CheckoutFunctions {
+
+    public Checkout(PromotionalRules promotionalRules) {
+
+    }
+
     @Override
-    public void scan() {
+    public void scan(Item item) {
 
     }
 

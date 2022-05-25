@@ -1,4 +1,4 @@
 public interface CheckoutFunctions {
-    void scan();
+    void scan(Item item);
     double total();
 }

@@ -8,8 +8,6 @@ public class App {
         catalogue.add(new Item(200, "Personalised cufflinks", 45.00));
         catalogue.add(new Item(300, "Kids T-shirt", 19.95));
 
-        for (Item item: catalogue) {
-            System.out.println(item.toString());
-        }
+
     }
 }
